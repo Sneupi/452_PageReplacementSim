@@ -7,7 +7,7 @@ import numpy as np
 import vmsim
 
 x = np.array([8, 16, 32, 64])
-refresh = 1000 # for NRU
+refresh = 500 # for NRU
 
 for tracefile in ['gcc.trace.gz', 'ls.trace.gz']:
 
